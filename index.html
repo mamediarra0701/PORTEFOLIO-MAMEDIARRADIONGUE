@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de Mame Diarra Diongue, étudiante en informatique et développement d'applications.">
+  <title>Portfolio | Mame Diarra Diongue</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+<a class="logo" href="#accueil">
+    <img src="LOGO.jpg" alt="Photo de Mame Diarra">
+</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Ouvrir le menu">☰</button>
+    <nav id="navigation">
+      <a href="#accueil">Accueil</a>
+      <a href="#apropos">À propos</a>
+      <a href="#competences">Compétences</a>
+      <a href="#projets">Projets</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="theme-toggle" id="themeToggle" aria-label="Changer le thème">☾</button>
+  </header>
+
+  <main>
+    <section class="hero section" id="accueil">
+      <div class="hero-content">
+        <p class="eyebrow"></p>
+        <h1>Bonjour, je suis<br><span>Mame Diarra Diongue</span></h1>
+        <h2>Étudiante en informatique<br>et développement d'applications</h2>
+        <p class="intro">Je m'intéresse à la création de solutions numériques utiles, accessibles et adaptées aux besoins des utilisateurs.</p>
+        <div class="actions">
+          <a class="btn primary" href="#projets">Découvrir mes projets</a>
+          <a class="btn secondary" href="#contact">Me contacter</a>
+        </div>
+      </div>
+      <div class="hero-art">
+    <div class="profile-frame">
+        <img src="profil.jpg"
+             alt="Photo de Mame Diarra Diongue">
+    </div>
+</div>
+        <div class="floating-tag tag-one">Créativité</div>
+        <div class="floating-tag tag-two">Développement</div>
+      </div>
+    </section>
+
+    <section class="section about" id="apropos">
+      <div class="section-heading"><p class="eyebrow">QUI SUIS-JE ?</p><h2>À propos de moi</h2></div>
+      <div class="about-card">
+        <p>Je m'appelle <strong>Mame Diarra Diongue</strong>. Je poursuis un parcours dans le domaine de l'informatique et du développement d'applications. J'aime apprendre, progresser étape par étape et mettre mes connaissances en pratique à travers des projets concrets.</p>
+        <p>Je souhaite approfondir mes connaissances en développement web, programmation, bases de données, systèmes et réseaux.</p>
+        <div class="facts">
+          <div><small>Domaine</small><strong>Informatique</strong></div>
+          <div><small>Orientation</small><strong>Développement d'applications</strong></div>
+          <div><small>Langues</small><strong>Français · Wolof</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="competences">
+      <div class="section-heading"><p class="eyebrow">MON APPRENTISSAGE</p><h2>Compétences & intérêts</h2><p class="section-note">Les domaines ci-dessous correspondent à mes centres d'apprentissage et de pratique.</p></div>
+      <div class="skill-grid">
+        <article class="skill-card"><div class="skill-icon">⌘</div><h3>Développement web</h3><p>HTML, CSS et JavaScript</p></article>
+        <article class="skill-card"><div class="skill-icon">⚙</div><h3>Programmation</h3><p>Initiation et pratique de la programmation, notamment en C++.</p></article>
+        <article class="skill-card"><div class="skill-icon">▤</div><h3>Bases de données</h3><p>Conception et gestion de données : domaine d'apprentissage.</p></article>
+        <article class="skill-card"><div class="skill-icon">⌁</div><h3>Systèmes & réseaux</h3><p>Découverte et approfondissement des environnements informatiques.</p></article>
+      </div>
+    </section>
+
+    <section class="section projects" id="projets">
+      <div class="section-heading"><p class="eyebrow">MES RÉALISATIONS</p><h2>Projets</h2><p class="section-note">Quelques projets académiques et personnels présentés dans mon portfolio.</p></div>
+      <div class="filters" role="group" aria-label="Filtrer les projets">
+        <button class="filter active" data-filter="all">Tous</button>
+        <button class="filter" data-filter="web">Développement web</button>
+        <button class="filter" data-filter="education">Éducation</button>
+      </div>
+      <div class="project-grid" id="projectGrid">
+        <article class="project-card" data-category="web">
+          <div class="project-visual teranga">TI<span>Teranga Immo</span></div>
+          <div class="project-body"><p class="project-type">APPLICATION WEB · IMMOBILIER</p><h3>Teranga Immo</h3><p>Projet de plateforme immobilière destinée au marché sénégalais : présentation de biens, recherche, espace agents et administration.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span></div></div>
+        </article>
+        <article class="project-card" data-category="education">
+          <div class="project-visual educ">EM<span>EducMeilleur</span></div>
+          <div class="project-body"><p class="project-type">PROJET ACADÉMIQUE · ÉDUCATION</p><h3>EducMeilleur</h3><p>Concept de plateforme numérique pour collèges et lycées au Sénégal : suivi des notes, absences, résultats et communication avec les parents.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>MySQL</span></div><blockquote>« Mieux suivre aujourd'hui pour mieux réussir demain. »</blockquote></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="section-heading"><p class="eyebrow">ÉCHANGEONS</p><h2>Contact</h2><p class="section-note">Vous souhaitez échanger à propos d'un projet, d'une collaboration ou d'une opportunité ?</p></div>
+      <div class="contact-card">
+        <p>Je serai ravie de découvrir votre message.</p>
+        <p class="missing">À compléter : adresse e-mail · numéro WhatsApp · liens GitHub et LinkedIn.</p>
+        <a class="btn primary" href="mailto:VOTRE-EMAIL@example.com?subject=Contact%20depuis%20mon%20portfolio">Préparer un e-mail</a>
+      </div>
+    </section>
+  </main>
+
+  <footer><p>© <span id="year"></span> Mame Diarra Diongue · Portfolio personnel</p><a href="#accueil">Retour en haut ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
